@@ -1,0 +1,28 @@
+{
+  "name": "popups-jose",
+  "version": "1.0.0",
+  "description": "Mern Stack code for the [Mern Tutorial](https://www.mongodb.com/languages/mern-stack-tutorial)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "npm -w server start",
+    "start-client": "npm -w client start",
+    "dev": "concurrently \"npm run start-server\" \"npm run start-client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FruitionTeam/PopUps-Jose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FruitionTeam/PopUps-Jose/issues"
+  },
+  "homepage": "https://github.com/FruitionTeam/PopUps-Jose#readme",
+  "workspaces": [
+    "mern-app/*"
+  ],
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
