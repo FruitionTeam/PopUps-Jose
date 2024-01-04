@@ -5,7 +5,7 @@ Mern Stack code for the [Mern Tutorial](https://www.mongodb.com/languages/mern-s
 
 ## How To Run
 
-### intall all dependencies
+### Install all dependencies
 In PopUps-Jose
 ```
 npm install
@@ -14,6 +14,12 @@ npm install
 cd mern/client
 npm install
 ```
+### Start docker db
+```
+cd docker/mongodb
+docker-compose up -d
+```
+
 ### Run
 ```
 npm run dev
