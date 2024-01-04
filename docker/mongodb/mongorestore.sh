@@ -1,0 +1,1 @@
+mongorestore --username root --password rootpassword ./db-dump
