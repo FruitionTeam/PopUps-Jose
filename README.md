@@ -16,8 +16,8 @@ npm install
 ```
 ### Start docker db
 ```
-cd docker/mongodb
-docker-compose up -d
+npm run start-docker
+
 ```
 
 ### Run
