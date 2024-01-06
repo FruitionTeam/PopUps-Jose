@@ -9,12 +9,13 @@ Mern Stack code for the [Mern Tutorial](https://www.mongodb.com/languages/mern-s
 In PopUps-Jose
 ```
 npm install
-cd mern/server
+cd mern-app/server
 npm install
-cd mern/client
+cd mern-app/client
 npm install
 ```
 ### Start docker db
+Open docker app 
 ```
 npm run start-docker
 
