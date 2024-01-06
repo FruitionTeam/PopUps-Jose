@@ -25,3 +25,7 @@ npm run start-docker
 npm run dev
 ```
 
+### Lazy way to Run 
+```
+npm run dbdev
+```
