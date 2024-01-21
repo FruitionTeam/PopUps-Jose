@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const restrauntSchema = new mongoose.Schema(
+const restaurantSchema = new mongoose.Schema(
     {
         name: {
             type: String,
@@ -34,6 +34,10 @@ const restrauntSchema = new mongoose.Schema(
         },
     
     },
-    { collection: 'restraunt_list' },
+    { collection: 'restaurant_list' },
     { bufferTimeoutMS: 1000 }
     )
+
+const Restaurant = mongoose.model('Restaurant', restaurantSchema)
+
+export default Restaurant;
