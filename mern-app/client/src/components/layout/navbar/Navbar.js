@@ -15,28 +15,28 @@ const Navbar = () => {
       <Link
         to="/"
         onClick={() => setShow(!show)}
-        className=" pr-[25px] focus:outline-none  transition duration-150 ease-in-out hover:bg-[#FFFFFF] rounded font-medium  px-5 py-2 "
+        className="focus:outline-none text-slate-700 transition duration-150 ease-in-out hover:shadow-md hover:bg-[#FFFFFF] rounded font-medium  px-5 py-2 "
       >
         Home
       </Link>
       <Link
         to="/map"
         onClick={() => setShow(!show)}
-        className=" pr-[25px] focus:outline-none  transition duration-150 ease-in-out hover:bg-[#FFFFFF] rounded font-medium  px-5 py-2 "
+        className="focus:outline-none text-slate-700 transition duration-150 ease-in-out hover:shadow-md hover:bg-[#FFFFFF] rounded font-medium  px-5 py-2 "
       >
         Interactive Map
       </Link>
       <Link
         to="/about"
         onClick={() => setShow(!show)}
-        className=" pr-[25px] focus:outline-none  transition duration-150 ease-in-out hover:bg-[#FFFFFF] rounded font-medium  px-5 py-2 "
+        className=" focus:outline-none text-slate-700 transition duration-150 ease-in-out hover:shadow-md hover:bg-[#FFFFFF] rounded font-medium  px-5 py-2 "
       >
         About Us
       </Link>
       <Link
-        to="/account"
+        to="/login"
         onClick={() => setShow(!show)}
-        className=" pr-[25px] focus:outline-none -gray-300  transition duration-150 ease-in-out hover:bg-[#FFFFFF] rounded font-medium  px-5 py-2 "
+        className=" focus:outline-none  text-slate-700 transition duration-150 ease-in-out hover:shadow-md hover:bg-[#FFFFFF] rounded font-medium  px-5 py-2 "
       >
         Account
       </Link>
@@ -44,11 +44,11 @@ const Navbar = () => {
   );
   return (
     <div>
-      <div className=" h-full text-slate-800">
+      <div className="h-full">
         {/* Code block starts */}
-        <nav className="shadow xl:block hidden w-full bg-[#f7f6f2] z-40">
+        <nav className="xl:block hidden w-full background3 z-40 shadow">
           <div className="mx-auto container flex flex-col items-center justify-center pt-4 pb-3">
-            <h1 className="mx-auto mb-2 mt-2 text-5xl font-bold titan">
+            <h1 className="mx-auto mb-2 mt-2 text-5xl font-bold heading text-gray-800 drop-in2 delay">
               FOOD DROPS
             </h1>
             <div className="items-center justify-center flex w-full">
@@ -70,13 +70,13 @@ const Navbar = () => {
             </div>
           </div>
         </nav>
-        <nav className="">
+        <nav className="s">
           <div className="py-4 px-6 w-full flex xl:hidden justify-between items-center z-40">
             {/* sm-----menubar */}
             <div className="flex items-center  p-2 ">
               <div
                 id="menu"
-                className="text-gray-500 bg-[#00ae87]"
+                className=" bg-[#00ae87]"
                 onClick={() => setShow(!show)}
               >
                 {show ? (
@@ -115,7 +115,7 @@ const Navbar = () => {
           <div
             className={
               show
-                ? "w-full xl:hidden h-full absolute z-40  transform  translate-x-0 "
+                ? "w-full xl:hidden h-full absolute z-40 transform  translate-x-0 "
                 : "   w-full xl:hidden h-full absolute z-40  transform -translate-x-full"
             }
           >
