@@ -11,15 +11,15 @@ function Testimonials() {
         <div className="sm:flex-cols-2 flex-wrap md:flex-cols-3 flex gap-3 justify-between h-auto pt-5 pb-[80px]">
           <TestimonialCard
             name="Testimonial #1"
-            review='"I love popups it is the best"'
+            review='"I love Food Drops it is the best"'
           />
           <TestimonialCard
             name="Testimonial #2"
-            review='"Popups changed my life and my business."'
+            review='"Food Drops changed my life and my business."'
           />
           <TestimonialCard
             name="Testimonial #3"
-            review='"Popups is the best thing that ever happened to me"'
+            review='"Food Drops is the best thing that ever happened to me"'
           />
         </div>
       </div>
