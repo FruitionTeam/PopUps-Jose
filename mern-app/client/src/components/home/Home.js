@@ -1,8 +1,9 @@
 import React from "react";
 import "../../App.css";
 import Location from "./Location";
-import Featured from "./Featured";
+import Featured from "./featured/Featured";
 import CallToAction from "./CallToAction";
+import Testimonials from "./testimonials/Testimonials";
 // import Sorted from "./Sorted";
 
 function Home() {
@@ -14,6 +15,8 @@ function Home() {
         <Featured />
         <CallToAction />
         {/* <Sorted /> */}
+
+        <Testimonials />
       </div>
     </div>
   );
