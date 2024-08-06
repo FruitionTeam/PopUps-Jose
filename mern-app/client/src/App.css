@@ -55,23 +55,23 @@ body {
   text-shadow: 1px 1px 1px rgba(80, 37, 10, 0.8);
 }
 
-.text-test {
-  color: rgb(116, 32, 29);
+.text-shadow-sm {
+  text-shadow: 0.5px 0.5px 0.5px rgba(48, 37, 30, 0.8);
 }
 
-.text-test2 {
-  color: rgb(141, 51, 51);
-}
-.text-test3 {
-  color: rgb(163, 82, 75);
+.text-red-dark {
+  color: #3b1110;
 }
 
+.text-red-2 {
+  color: #4a1514;
+}
+
+.text-red-lt {
+  color: #473837;
+}
 .background-test {
   background-color: rgb(43, 41, 41);
-}
-
-.background-test2 {
-  background-color: rgb(143, 42, 33);
 }
 
 .drop-in {

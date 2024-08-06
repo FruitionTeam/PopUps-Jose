@@ -13,14 +13,14 @@ function CallToAction() {
         <input
           type="text"
           placeholder="Restaurant Name"
-          className="bg-[#FFFFFF] mt-6 mx-auto w-[45%] shadow-lg text-slate-600 text-lg h-[50px] flex items-center px-8 rounded-full"
+          className="background3 mt-6 mx-auto w-[45%] shadow-lg text-slate-600 text-lg h-[50px] flex items-center px-8 rounded-full"
         ></input>
         <input
           type="email"
           placeholder="Email"
-          className="bg-[#FFFFFF] mt-6 mx-auto w-[45%] shadow-lg text-slate-600 text-lg h-[50px] flex items-center px-8 rounded-full"
+          className="background3 mt-6 mx-auto w-[45%] shadow-lg text-slate-600 text-lg h-[50px] flex items-center px-8 rounded-full"
         ></input>
-        <button className="background-test2 px-9 py-3 font-bold text-white mt-7 mb-1 rounded-lg mx-auto shadow-2xl">
+        <button className="background3 px-9 py-3 font-bold text-[#473837] mt-7 mb-1 rounded-lg mx-auto shadow-md">
           Submit
         </button>
       </div>

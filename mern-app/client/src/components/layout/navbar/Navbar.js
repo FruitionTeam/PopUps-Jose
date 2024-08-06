@@ -15,28 +15,28 @@ const Navbar = () => {
       <Link
         to="/"
         onClick={() => setShow(!show)}
-        className="focus:outline-none text-slate-700 transition duration-150 ease-in-out hover:shadow-md hover:bg-[#FFFFFF] rounded font-medium  px-5 py-2 "
+        className="focus:outline-none text-[#473d38] transition duration-150 ease-in-out hover:shadow-md hover:bg-[#FFFFFF] rounded font-medium  px-5 py-2 "
       >
         Home
       </Link>
       <Link
         to="/map"
         onClick={() => setShow(!show)}
-        className="focus:outline-none text-slate-700 transition duration-150 ease-in-out hover:shadow-md hover:bg-[#FFFFFF] rounded font-medium  px-5 py-2 "
+        className="focus:outline-none text-[#473d38] transition duration-150 ease-in-out hover:shadow-md hover:bg-[#FFFFFF] rounded font-medium  px-5 py-2 "
       >
         Interactive Map
       </Link>
       <Link
         to="/about"
         onClick={() => setShow(!show)}
-        className=" focus:outline-none text-slate-700 transition duration-150 ease-in-out hover:shadow-md hover:bg-[#FFFFFF] rounded font-medium  px-5 py-2 "
+        className=" focus:outline-none text-[#473d38] transition duration-150 ease-in-out hover:shadow-md hover:bg-[#FFFFFF] rounded font-medium  px-5 py-2 "
       >
         About Us
       </Link>
       <Link
         to="/login"
         onClick={() => setShow(!show)}
-        className=" focus:outline-none  text-slate-700 transition duration-150 ease-in-out hover:shadow-md hover:bg-[#FFFFFF] rounded font-medium  px-5 py-2 "
+        className=" focus:outline-none  text-[#473d38] transition duration-150 ease-in-out hover:shadow-md hover:bg-[#FFFFFF] rounded font-medium  px-5 py-2 "
       >
         Account
       </Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
         {/* Code block starts */}
         <nav className="xl:block hidden w-full background3 z-40 shadow">
           <div className="mx-auto container flex flex-col items-center justify-center pt-4 pb-3">
-            <h1 className="mx-auto mb-2 mt-2 text-5xl font-bold heading text-gray-800 drop-in2 delay">
+            <h1 className="mx-auto mb-2 mt-2 text-5xl font-bold heading text-red-2 drop-in2 delay">
               FOOD DROPS
             </h1>
             <div className="items-center justify-center flex w-full">

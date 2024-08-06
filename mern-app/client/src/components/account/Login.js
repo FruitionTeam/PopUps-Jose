@@ -10,20 +10,25 @@ function Login() {
         <input
           type="email"
           placeholder="Email"
-          className="bg-[#FFFFFF] mt-6 mx-auto w-[65%] text-slate-600 shadow-md text-lg h-[50px] flex items-center px-8 rounded-full"
+          className="background3 mt-6 mx-auto w-[65%] text-slate-600 shadow-md text-lg h-[50px] flex items-center px-8 rounded-full"
         ></input>
 
         <input
           type="text"
           placeholder="Password"
-          className="bg-[#FFFFFF] mt-5 mx-auto w-[65%] text-slate-600 shadow-md text-lg h-[50px] flex items-center px-8 rounded-full"
+          className="background3 mt-5 mx-auto w-[65%] text-slate-600 shadow-md text-lg h-[50px] flex items-center px-8 rounded-full"
         ></input>
-        <button className="background-test2 px-9 py-3 font-bold text-white mt-7 mb-5 rounded-lg mx-auto shadow-2xl">
+        <button className="background3 px-9 py-3 font-bold text-red-lt mt-7 mb-5 rounded-lg mx-auto shadow-md">
           Log in
         </button>
         <div className="flex gap-2 items-center justify-center">
-          <p className="font-bold text-test2">Don't have an account yet?</p>
-          <a href="/signup" className="underline font-bold text-test2">
+          <p className="font-bold text-white text-shadow-md">
+            Don't have an account yet?
+          </p>
+          <a
+            href="/signup"
+            className="underline font-bold text-white text-shadow-md"
+          >
             Sign up
           </a>
         </div>
